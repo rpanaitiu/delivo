@@ -1,0 +1,46 @@
+
+body {
+    background-image: url(https://cdn-image.myrecipes.com/sites/default/files/field/image/1708w-getty-fruit-closeup-carstenschanter-eyeem.jpg);
+    background-size: cover;
+}
+
+
+
+body div div button {
+    font-family: roboto, BlinkMacSystemFont,avenir next, avenir, helvetica neue
+                 helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+    background-color: rgb(255,255,255,0.2);
+    margin: 70px;
+    border: 3px solid #4db8ff;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    width: 450px;
+    height: 90px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.wrapper {
+position: absolute;
+top: 35%;
+left: 8%;
+}
+
+.logo{
+    width: 170px;
+
+}
+
+body div div button:hover {
+  background-color: #4db8ff;
+  transition: 0.8s;
+}
+
+body div div button,
+body div div button:after,
+body div div button:before {
+  transition: all .8s;
+}

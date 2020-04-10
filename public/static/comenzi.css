@@ -1,39 +1,9 @@
-
-
-@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@600&display=swap');
-body nav div h1 {
-    font-family: 'Major Mono Display', monospace;
-    font-size: 43px;
-    color: #4db8ff;
-    display: inline-block;
-}
-
-body nav div h2 {
-    font-family: 'Major Mono Display', monospace;
-    font-size: 29px;
-    color: #4db8ff;
-    display: inline-block;
-}
-/*body nav div h3 {
-    font-family: 'Baloo Da 2', cursive;
-    font-size: 30px;
-    color: #3b3535;
+/*.center {
+  text-align: center;
 }*/
 
-body {
-  font-family: 'Baloo Da 2', cursive;
-  padding: 0;
-  margin: 0;
-  width: 100vw;
-}
-
-.center {
-  text-align: center;
-}
-
 nav {
-  position: fixed;
+  position: sticky
   top: 0;
   left: 0;
   height: 65px;
@@ -52,6 +22,8 @@ nav ul li {
   display: inline-block;
 }
 nav ul li a {
+  font-family: roboto, BlinkMacSystemFont,avenir next, avenir, helvetica neue
+               helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
   display: block;
   padding: 10px;
   text-decoration: none;
@@ -59,13 +31,14 @@ nav ul li a {
   font-weight: 800;
   text-transform: uppercase;
   margin: 0 5px;
-
 }
+
 nav ul li a,
 nav ul li a:after,
 nav ul li a:before {
   transition: all .5s;
 }
+
 nav ul li a:hover {
   color: #3f3e3e;
 }
